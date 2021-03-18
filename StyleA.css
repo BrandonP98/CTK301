@@ -1,0 +1,67 @@
+/* Advanced stylesheet */
+
+.customtext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.customtext2 {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.textright {
+text-align: center;
+}
+
+p {
+  color: #3F9FBF;
+}
+
+h1 {
+  color: #2470FD;
+  font-family: Impact;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+}
+
+.spanstyle {
+  color: #FDB124;
+}
+
+a:hover {
+ color: #FDB124;
+}
+
+a:link {
+ color: #3F9FBF;
+}
+
+a {
+ text-decoration: none;
+}
+
+#specialid {
+ color: #ffffff;
+ font-family: Arial, Helvetica, sans-serif;
+ font-style: normal;
+ font-weight: normal
+ }
+
+body {
+background-color: #ffffff;
+background-image: url(Soul.png);
+background-repeat: no-repeat;
+background-position: top left;
+background-size: 20% 120%;
+}
+
+img {
+  margin: 10px 10px 30px 10px;  
+}
