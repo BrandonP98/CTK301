@@ -1,0 +1,49 @@
+
+h1 {
+ color: #FFFFFF;
+ background-color: #DFCC80;
+}
+
+h2 {
+ color: #DFCC80;
+}
+
+h3 {
+ background-color: #CC80DF;
+}
+
+h4 {
+ color: #8093DF;
+ background-color: #93DF80;
+}
+
+h5 {
+ color: #842EAD;
+}
+
+#divexample {
+ background-color: #808DC0;
+}
+
+a:link {
+ color: #EB1919;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #F5F237;
+ text-decoration: underline;
+}
+
+a:visited {
+ color: #10A408;
+ text-decoration: none;
+}
+
+.spanstyle2 {
+color: #E7C621;
+}
+
+.specialp {
+ color: #E73F21;
+}
