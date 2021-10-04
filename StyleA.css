@@ -1,67 +1,88 @@
 /* Advanced stylesheet */
-
+/*
 .customtext {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
 }
-
+*/
 .customtext2 {
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
   font-style: normal;
   font-weight: normal;
-  font-size: 10px;
+  font-size: 14px;
+  margin: 10px 10px 10px 10px;
 }
 
-.textright {
-text-align: center;
-}
-
-p {
+.credits {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
   color: #3F9FBF;
+  text-align: center;
+  /*border: 2px solid #0000ff;*/
+  padding: 0px 20px 0px 20px;
+  margin: 515px 0px 5px 0px;
 }
 
-h1 {
+.small {
+  font-size: 8px;
+}
+
+
+.soul {
   color: #2470FD;
   font-family: Impact;
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
+  font-size: 130px;
+  text-align: center;
+  margin: 110px 0px 0px 0px;
 }
-
+/*
+header {
+  margin-right: 200px 50px;
+}
+*/
 .spanstyle {
   color: #FDB124;
+}
+
+a {
+ color: #3F9FBF;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ text-decoration: none;
+ margin-top: 60px;
 }
 
 a:hover {
  color: #FDB124;
 }
 
-a:link {
- color: #3F9FBF;
-}
-
-a {
- text-decoration: none;
-}
-
+/*
 #specialid {
  color: #ffffff;
  font-family: Arial, Helvetica, sans-serif;
  font-style: normal;
- font-weight: normal
+ font-weight: normal;
  }
+ */
 
 body {
+width: 600px;
 background-color: #ffffff;
 background-image: url(Soul.png);
 background-repeat: no-repeat;
 background-position: top left;
-background-size: 20% 120%;
+text-align: center;
+margin: 30px 30px 30px 30px;
 }
 
 img {
-  margin: 10px 10px 30px 10px;  
+  margin: 25px 0px 0px 0px;
 }
