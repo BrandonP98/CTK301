@@ -75,6 +75,7 @@ nav li {
 
 nav li:hover {
   background-color: #781313;
+  text-decoration: none;
 }
 
 a.nav:link {
