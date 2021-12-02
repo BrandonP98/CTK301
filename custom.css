@@ -1,0 +1,87 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+ /* This is for the dummy columns, replace or delete */
+}
+
+header {
+  grid-column: span 12;
+  background-color: #ff9b5a;
+  color: white;
+  font-family: cursive;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 24px;
+}
+
+#mainimg {
+  grid-column: span 8;
+}
+
+nav {
+  grid-column: span 4;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul a {
+  display: block;
+  background-color: #ff9b5a;
+  color: white;
+  font-family: Helvetica, Ariel, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 24px;
+}
+
+section {
+  grid-column: span 4;
+}
+
+section h2 {
+  font-family: Helvetica, Ariel, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  margin-bottom: 0px;
+}
+
+main {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+footer {
+  grid-column: span 14;
+  background-color: #ff9b5a;
+  font-weight: bold;
+  text-align: center;
+  padding: 24px;
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+/*.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
+*/
